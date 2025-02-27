@@ -1,0 +1,37 @@
+h1{
+    color: rgb(192, 239, 148);
+    font-family: cursive;
+    margin: 10%;
+    border-width: 4px;
+    border-color: blanchedalmond;
+    border-style: dashed;
+    border-radius: 8px;
+    font-style: oblique;
+    background-color: orange;
+
+}
+body{
+    background-color: rgb(75, 128, 141);  
+}
+#theBody{
+    font-family:'Courier New', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: mediumseagreen;
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    background-color: rgb(75, 128, 141);
+}
+a{
+    color: brown;
+    background-color: rgb(64, 152, 114);
+}
+h2{
+    font: bold;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+main{
+    background-color: orangered;
+}

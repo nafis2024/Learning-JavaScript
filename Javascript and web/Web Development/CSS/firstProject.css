@@ -1,0 +1,47 @@
+*{
+    font-family: 'Bradley Hand ITC';
+    background-color: #FFDBBB;
+    color: black;
+    border-color: #FF5733;
+    
+}
+
+h1{
+    background-image: url('https://as2.ftcdn.net/v2/jpg/04/91/09/73/1000_F_491097372_fPvtKzIJEcndkl69Gh30oXmHUM4aLlE3.jpg');
+    display: grid;
+    place-items: center;
+    font-style: bold;
+    font-size: 1000;
+    border-color: #FF5733;
+    border: 2px solid;
+    padding: 2% 3%;
+    background-color: papayawhip;
+}
+
+h2{
+    font-style: italic;
+    border: 1px dashed #FF5733;
+    padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    
+}
+
+h3{
+    font-family: 'Gabriola';
+}
+
+article{
+    display: block;
+
+}
+
+footer{
+    background-color: cornflowerblue;
+    opacity: 70%;
+    display: grid;
+    position: relative;
+    padding: 2%;
+    border-radius: 8px;
+    
+}
