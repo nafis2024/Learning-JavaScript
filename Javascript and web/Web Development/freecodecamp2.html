@@ -1,0 +1,140 @@
+<!--I didn't knew no other element could be used inside ul, ol, li
+I am not fixing this whole page just to correct the errors-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="DEMO WEBPAGE" content="this is the new and detailed version of the previous file. I will try to make it more convinient">
+    <title>Demo page</title>
+    <link rel="stylesheet" href="CSS/freecodecamp.css">
+</head>
+<body>
+    <h1>Hey, Welcome to my website</h1>
+    <p>Click the links below to navigate</p>
+    <nav id="Basics">
+        <ul style="font-style: italic; font-family: Arial, Helvetica, sans-serif;">
+        <li><a href="#sec1">The introduction</a> </li>
+        <li><a href="#sec2">More items related to HTML</a></li>
+        <li><a href="#sec3">Details</a></li>
+        <li><a href="#last">Down to bottom</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <h1 style="border:2px solid Tomato;">Hello World</h1>
+<main>
+
+    <h4>The Current Timeline</h4>
+    <em>I have been learing through freeCodeCamp for more than a week already and almost finished learning html</em>
+    <hr>
+
+    <section id="sec1">
+        <ol>
+            <li><strong>Basic knowledge and planning</strong></li>
+        
+                <p>Firstly I planned to learn these computer languages before my SSC examination and here I am with the progress</p>
+                <p>The time invested into Javascript is around <time datetime="PTH8H" > 8 hours </time> and I started from 14th March</p>
+                    <figure style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" ;>
+                        <img src="/All images/mycurrentview.png" alt="This is my view as I'm learning HTML" width="150px" loading="lazy">
+                        <figcaption>
+                            <p>This is my view as I'm learning HTML</p>
+                        </figcaption>
+                    </figure>
+                
+            
+
+
+            <li><strong>Different types of elements in HTML</strong></li>
+                    <ul>
+                       
+                    </ul>
+            <li><strong></strong></li>
+        </ol>
+    </section>
+</main>
+   
+    <hr>
+ <article id="sec3">
+    <h3>Ways to <abbr title="I am available via Email or Phone">contact me</abbr></h3>
+    <form action="https://myserver.com">
+        <fieldset>
+            <legend>Personal Info </legend>
+       <p>
+            <label for="firstname">First Name</label>
+            <input type="text" name="name" id="firstname" placeholder="MNF" autocomplete="on" required autofocus autocapitalize="text">
+        </p>
+       <p>
+            <label for="lastname">Last Name</label>
+            <input type="text" placeholder="Fuad">
+       </p>
+       <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="enter it" required>
+       </p>
+   
+    </fieldset>
+ 
+       <p>
+            <label for="age">Your Age</label>
+            <input type="number" name="age" id="age" placeholder="23" pattern="[0-9]{2}">
+       </p>
+       <p>
+            <label for="phone">Phone Number</label>
+            <input type="tel" placeholder="01123456789" pattern="[0-9]{3}[0-9]{8}">
+       </p>
+       <p>
+            <label for="Century">Favourite century</label>
+            <input type="number" name="century" id="century" min="1900" max="2030" step="10" value="2000">
+       </p>
+        <p>
+           <label for="class">Your grade:</label> 
+           <select name="Grade" id="grade" multiple size="2">
+                <optgroup label="High School">
+                <option value="6">VI</option>
+                <option value="7">VII</option>
+                <option value="8">VIII</option>
+                <option value="9">IX</option>
+                <option value="10" selected>X</option>
+            </optgroup>
+            <optgroup label="Intermidiate">
+                <option value="11">XI</option>
+                <option value="12">XII</option>
+            </optgroup>
+            </select>
+       </p> 
+       <p>
+        <label for="Your Grade in text">Grade</label>
+        <input type="text" list="gradeList">
+        <datalist id="gradeList">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+        </datalist>
+        </p>
+        <!-- Learn Radio, message and checkbox forms -->
+        <p>
+            <button type="submit"> Submit Button</button>
+            <button type="reset">Reset form</button>
+            <button type="submit" formaction="https://hello.cm">forwarding address</button>
+        </p>
+    </form>
+
+
+ </article>
+
+
+    <section id="last">
+        <footer style="font-size: small; font-family: monospace;">Mohammad Nafis Fuad &copy;
+
+            <nav aria-label="footer">
+                <li><a href="https://www.wikipidia.com">Open encyclopedia</a></li>
+                <li><a href="https://brandmark.io/">Create Brandmarks</a></li>
+                <li><a href="https://fontjoy.com/">Discover convinient fonts</a></li>
+                <li><a href="https://colourcontrast.cc/">Check convinient colors for your website</a></li>
+                <li><a href="#">To the top</a></li>
+            </nav>
+        </footer>
+    </section>
+</body>
+</html>

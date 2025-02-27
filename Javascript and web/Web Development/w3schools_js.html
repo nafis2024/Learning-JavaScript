@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>This pages sole purpose is to run JS codes which don't run in the terminal</h3>
+
+    <button onclick="window.print()">Print this page</button>
+    <p id="new"></p>
+    <p id="number"></p>
+    <button onclick="document.write(4+4)">4+4</button>
+
+    <button type="button" onclick="scriptPrinter()">Show the blocks inside function</button>
+        <p id="1"></p>
+        <p id="2"></p>
+
+        <script>
+            //window.alert(3-2)
+            document.getElementById("number").innerHTML = 4+2
+            //This thing does nothing for now
+
+            document.getElementById("new").innerHTML = "Hello newbie"
+
+            function scriptPrinter(){
+                document.getElementById("1").innerHTML = "Number 1";
+                document.getElementById("2").innerHTML = "Number 2";
+
+
+        
+                    }
+        
+        </script>
+
+</body>
+</html>
